@@ -177,3 +177,75 @@ main p {
 main div figure {
     height: 43vh;
 }
+.lastFigureMain {
+    height: 30vh;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    position: relative;
+    top: 13vh;
+    font-family: "Roboto", sans-serif;
+}
+.firstNavFooter {
+    display: flex;
+    align-items: center;
+    height: 22vh;
+    color: gray;
+    font-weight: 600;
+}
+.firstNavFooter ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    list-style: none;
+}
+.firstNavFooter li {
+    padding-right: 1em;
+    border-right: 2px solid;
+}
+.firstNavFooter li:hover {
+    cursor: pointer;
+}
+.firstNavFooter li:last-of-type {
+    border: none;
+}
+footer div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70vw;
+    height: 26vh;
+}
+.secondNavFooter ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    width: 12vw;
+    color: #005177;
+}
+.secondNavFooter ion-icon:hover {
+    cursor: pointer;
+    color: #E31837;
+}
+footer figure {
+    display: flex;
+    justify-content: flex-end;
+    width: 17vw;
+}
+footer figure:last-of-type {
+    width: 13.5vw;
+}
+footer p {
+    width: 70vw;
+    line-height: 18px;
+    font-size: 11.3px;
+    font-weight: 600;
+    color: gray;
+    padding-top: 15px;
+}
